@@ -1,0 +1,8 @@
+ 
+ANSYS Electronics Desktop Version 2018.0.0, Build: 2017-12-03 22:04:48
+Location: C:\Program Files\AnsysEM\AnsysEM19.0\Win64\ansysedt.exe
+Batch Script: E:/Eular_Spiral/2020-06-14_CodeForAkash/VBSFiles/Foldable_HMS_17_GHz_Only_Broadside_Shifted_Feed.vbs
+Starting Batch Run: 4:17:45 AM  May 03, 2021
+Running as user: ECE-2965-8B0D\abisw002
+The -ng flag must be combined with the -batchsolve, -batchsave or -batchextract flag.
+[Exiting application]

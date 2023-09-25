@@ -1,0 +1,17 @@
+clear, clc, close all
+
+% This code will create an AEDT project and isert an HFSS design
+
+% Define HFSS project parameters
+projName =  'SAVE_ME';
+designName = "Test";
+VBSscriptName = projName;
+projDir = 'E:\Ansoft\';
+fc = 10; % Center freq in GHz
+AP_X = 10; % X-dim of the aperture in lambda
+
+hfss = hfss_test(projName, designName, VBSscriptName, projDir, fc, AP_X);
+
+% % hfss.createHFSSproj;
+hfss.createVars;
+% hfss.runVBS;

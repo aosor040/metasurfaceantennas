@@ -6,12 +6,8 @@ clear, clc, close all
 projName =  'SAVE_ME';
 designName = "Test";
 VBSscriptName = projName;
-% projDir = 'C:\Users\arubi010\Documents\Ansoft\RAs\UCs\';
-projDir = 'D:\Ansoft\';
-fileName = 'S11_E_r_21_tand_0066';
-ScurveDir = 'C:\Users\arubi010\Documents\antennaBuilder\Data\RAs\UCs\Square\patch_Square\Rogers4003C\5850MHz\subH_800um.csv';
-%ScurveDir = sprintf('C:\\Users\\arubi010\\OneDrive - Florida International University\\Documents\\antennaBuilder\\Data\\RAs\\UCs\\Rollable\\Scurve\\%s.csv', fileName);
-% ScurveDir = "C:\Users\arubi010\Documents\antennaBuilder\Data\RAs\UCs\Square\patch_Square\Rogers5880LZ\Square_Patch_NoKapton_38GHZ.csv";
+projDir = 'E:\Ansoft\';
+
 
 % Define Aperture parameters 
 fc = 5.85; % Freq in GHz
